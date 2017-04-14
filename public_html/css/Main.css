@@ -215,7 +215,7 @@ p{
  }
 
 .dropdown-menu li{
-  background-color: rgba(63,130,193,0.75);
+  background-color: rgba(4,141,69,0.75);
   border-bottom: 1px solid white;
   clear: both;
   text-align: right;
@@ -229,7 +229,7 @@ p{
 
 .dropdown-menu li a:hover{
   color: #fff200;
-  background-color: rgba(63,130,193,0.75);
+  background-color: rgba(4,141,69,0.75);
   padding: 4px 20px;
 }
 
@@ -252,7 +252,7 @@ p{
 }
 
 .header .kader{
-  background-color:#3F82C1; 
+  background-color:#048d45; 
   width: auto; 
   height: 150px;
   padding: 15px; 
@@ -301,7 +301,7 @@ p{
   }
 
   .backButton:hover .glyphicon-chevron-left{
-    color: #3F82C1;
+    color: #048d45;
   }
 
 .header .image{
@@ -537,7 +537,7 @@ img {
     color: #f1f2f2;
     padding: 2rem;
     position: relative;
-    background-color: rgba(63,130,193,0.75);
+    background-color: rgba(4,141,69,0.75);
 }
 
 .animated:hover p, .animated ul, .animated a{
@@ -550,7 +550,7 @@ img {
 }
 
 .animated:hover .glyphicon-grey{
-  color: #3f82c1;
+  color: #048d45;
 }
 
 .animated:hover .glyphicon-white, .animated:hover h2{
@@ -558,7 +558,7 @@ img {
 }
 
 .animated h2{
-    background-color: rgba(63,130,193,0.75);
+    background-color: rgba(4,141,69,0.75);
     margin: 0rem;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -602,7 +602,7 @@ img {
   clear: both;
 }
 .collorblue{
-  background-color: rgba(63,130,193,0.75);
+  background-color: rgba(4,141,69,0.75);
   height: 100%;
   text-align: center;
 }
@@ -654,7 +654,7 @@ img {
 
 .marketing ol li:before{
   background-color: white;
-  color: #3f82c1;
+  color: #048d45;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-right: 1rem;
   counter-increment: section;
@@ -685,7 +685,7 @@ img {
 /* colors 
 -----------------------------*/
 .cWrapper .blueHard{
-  background-color: #3f82c1;
+  background-color: #048d45;
   color: white;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
@@ -700,7 +700,7 @@ img {
   background-color: FFF200;
 }
 .lightBlue{
-  background-color: rgba(63,130,193,0.75);
+  background-color: rgba(4,141,69,0.75);
   color: white; 
 }
 
@@ -708,7 +708,7 @@ img {
   background-color: #f1f2f2;
 }
 .whiteGrey a{
-  color: #3f82c1; 
+  color: #048d45; 
 }
 .whiteGrey a:hover{
   color: #c1cde3;
@@ -725,8 +725,8 @@ img {
 
 .buttonBlue{
   background-color: transparent;
-  border: #3f82c1 2px solid;
-  color: #3f82c1;
+  border: #048d45 2px solid;
+  color: #048d45;
   text-align: center;
   font: 18pt, sans, semibold; 
   text-transform: uppercase;
@@ -734,7 +734,7 @@ img {
 }
 
 .buttonBlue:hover{
-  background-color :#3f82c1;
+  background-color :#048d45;
   color : #f1f2f2;
 }
 
@@ -749,8 +749,8 @@ img {
 
 .buttonWhite:hover{
   background-color :#fff200;
-  color : #3f82c1;
-  border-color: #3f82c1;
+  color : #048d45;
+  border-color: #048d45;
 }
 
 .textWrapper{
@@ -765,7 +765,7 @@ img {
 }
 
 .glyphicon-grey:hover{
-  color: #3f82c1;
+  color: #048d45;
 }
 
 .glyphicon-white{
@@ -1259,4 +1259,26 @@ footer{
 /*linkkleur wat is zonnestad homepage*/
 .zonnestad:hover h1 {
   color: #fff200!important;
+}
+
+/*fix wijkwerf isolatie carousel*/
+@media (min-width: 860px){
+    .cWrapper .carouselInsu-caption {
+        margin-bottom: -45rem;
+    }
+    
+    .cWrapper .block:hover .carouselInsu-caption {
+        margin-bottom: -18rem;
+    }
+    
+}
+
+.cWrapper .marketing .blocktekstInsu p{
+    background-color: rgba(63,130,193,0.75); 
+    height: 40rem;  
+}
+
+.cWrapper .animatedInsu:hover h2 {
+    margin-top: 0rem;
+    padding-top: 20rem;
 }
