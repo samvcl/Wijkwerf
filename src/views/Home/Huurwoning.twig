@@ -1,0 +1,31 @@
+{% extends 'layout.twig' %}
+{% set pageTitle = 'Admin' %}
+{% set meerwaardeTitle ='Huurwoning' %}
+{% block pageCss %}
+	<link rel="stylesheet" media="screen" href="{{ app.request.baseUrl }}/{{ urlfix}}css/forms.css" />
+{% endblock %}
+{% block pageContent %}
+    <div class="cWrapper">
+      <div class="container marketing">
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette">
+          <div class="col-md-12">
+            <div class="block small blueHard">
+              <h1 class="yellow">Bedankt voor je interesse!</h1>
+              <p>
+Met deze vragenlijst pijlen we naar jouw zonnepotentieel.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-12">
+<div class="block typeform-widget" data-url="https://jeroenbaet.typeform.com/to/VZlX80" style="width: 99%; height: 600px;"></div><script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id="typef_orm",b="https://s3-eu-west-1.amazonaws.com/share.typeform.com/";if(!gi.call(d,id)){js=ce.call(d,"script");js.id=id;js.src=b+"widget.js";q=gt.call(d,"script")[0];q.parentNode.insertBefore(js,q)}})()</script>
+</div>
+</div>
+</div>
+</div>
+     
+{% endblock %}
+{% block pageScripts %}
+{% endblock %}

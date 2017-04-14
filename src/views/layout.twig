@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<title>GentZonnestad</title>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    	<meta name="author" content="Rein Bauwens">
+    	<meta name="designer" content="Sam Van Cleemputte">
+		{# Global Css Start #}
+		
+		<link rel="stylesheet" media="screen" href="{{ app.request.baseUrl }}/{{ urlfix}}css/bootstrap.min.css" />
+		<link rel="stylesheet" media="screen" href="{{ app.request.baseUrl }}/{{ urlfix}}css/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" media="screen" href="{{ app.request.baseUrl }}/{{ urlfix}}css//ie10-viewport-bug-workaround.css" />
+		<link rel="stylesheet" media="screen" href="{{ app.request.baseUrl }}/{{ urlfix}}css/Main.css" />
+
+    <!--favicon-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="{{ app.request.baseUrl }}/{{ urlfix}}img/fav/mstile-310x310.png" />
+
+<!--Open graph-->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Gent Zonnestad? Ja Graag!"/> 
+<meta property="og:description" content="Met 'Gent zonnestad’ voert de energiecoöperatie EnerGent campagne voor meer zonnepanelen in Gent. De campagne is gebaseerd op een groepsaankoop met vooraf bepaalde prijzen."/>
+<meta property="og:url" content="http://www.zonnestad.gent"/>
+<meta property="og:image" content="{{ app.request.baseUrl }}/{{ urlfix}}img/logoZonnestad.png"/>
+<meta property="og:type" content="website"/>
+
+
+		
+		{# Global Css END #}
+		{% block pageCss %}
+		{% endblock %}
+	</head>
+	<body>
+		<!-- NAVBAR
+================================================== -->
+  <body>
+  
+    <div class="navbar-wrapper container">
+
+        <nav class="navbar navbar-static-top ">
+          <div class="menuStyling ">
+            <div id="navbar">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle dropdown:hover" id="PReset" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span  class="fa fa-angle-down" aria-hidden="true"></span> Een project van ENERGENT |</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://zonnestad.gent">Zonnestad</a></li>
+                    <li><a href="http://energent.be/wijkwerf" </a>wijkwerf</li>
+                    <li><a href="http://energent.be/projecten-van-energent">investeringen</a></li>
+                    <li><a href="http://energent.be/over-ons">Over ons</a></li>
+                  </ul>
+                </li>
+                <li class="icon-header"><a href="https://www.facebook.com/Energent.cvba"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li class="icon-header"><a href="https://www.youtube.com/user/EnerGentbe"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                <li class="icon-header"><a href="mailto:ZONNESTAD@ENERGENT.BE"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    {% if app.request.get('_route') != 'Home.start' %}
+    <a href="{{ path('Home.start') }}">
+      <div class="backButton">
+        <div>
+          <img src='{{ app.request.baseUrl }}/{{ urlfix}}img/zon.svg' class="image">
+        </div>
+        <div class="tekst">
+          <div>
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+      </a>
+    {% endif %}
+
+    {% if app.request.get('_route') == 'Home.start' %}
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+        <div class="item">
+            <img class="first-slide" src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/pano_stad.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <div class="col-md-4"><img src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/signpost.svg"></div>
+                <div class="col-md-8">
+                  <p>Als alle Gentse daken zonnepanelen zouden hebben, zou gent 1 TWH energie per jaar opwekken. Dat is een </p>
+                  <h1>Een stedelijke energiecentrale die <span class="colloryellow">groen én rendabel</span> is</h1>
+                  <a class="btn btn-lg btn-primary buttonWhite " href="{{ path('Home.WatIsZonnestad') }}" role="button" >Wat is zonnestad?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item ">
+            <img class="second-slide" src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/pano_installatie.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+               <div class="col-md-4"><img src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/signpost.svg"></div>
+                <div class="col-md-8">
+                  <p>Dankzij energent plaats je </p>
+                  <h1>Sociaal-ecologisch verantwoorde zonnepanelen tegen een <span class="colloryellow">goede prijs</span></h1>
+                  <a class="btn btn-lg btn-primary buttonWhite " href="{{ path('Home.ZonnestadInCijfers') }}" role="button">Zonnestad in cijfers</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <img class="third-slide" src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/pano_financieel.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <div class="col-md-4"><img src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/signpost.svg"></div>
+                <div class="col-md-8">
+                  <p>Een zonne-installatie betaalt zich terug in 7 tot 11 jaar. de komende 25 jaar</p>
+                  <h1>betaal je dus nog <span class="colloryellow">maximaal de helft</span> van de tijd voor je stroom</h1>
+                  <a class="btn btn-lg btn-primary buttonWhite " href="{{ path('Home.Installatie') }}" role="button">De installatie</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item active">
+            <img class="fourth-slide" src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/pano_kind.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <div class="col-md-4"><img src="{{ app.request.baseUrl }}/{{ urlfix}}img/banner/signpost.svg"></div>
+                <div class="col-md-8">
+                  <p>Energent laat de ZON SCHIJNen VOOR IEDEREEN</p>
+                  <h1>EIGENAARS,  HUURDERS,  APPARTEMENTEN & BEDRIJVEN</h1>
+                  <a class="btn btn-lg btn-primary buttonWhite " href="#" id="scrollmiddle" role="button">doe mee</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!-- /.carousel -->
+    {% else %}
+      <div class="header header1">
+        <div class="cWrapper">
+          <div class="container">
+            <div class="row featurette">
+              <div class="col-md-4"><img src="{{ app.request.baseUrl }}/{{ urlfix}}img/logoZonnestadklein.png"></div>
+              <div class="col-md-8">
+                <h1>
+                  {{ meerwaardeTitle }}
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="header header2">
+        <div class="blockheader">
+          <div class="kader">
+            <div>
+              <img src='{{ app.request.baseUrl }}/{{ urlfix}}img/zon.svg' class="image">
+            </div>
+            <div class="padding">
+              <div>
+                <span class="super">zonnestad.gent</span"><br>
+                <span class="titel">{{ meerwaardeTitle }}</span>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    {% endif %}
+		<div class="cWrapper">
+			<div class="page-content clearfix">
+				{# pageContent Start #}
+				{% block pageContent %}
+				{% endblock %}
+				{# pageContent END #}
+			</div>
+		</div>
+		<footer class="blueHard">
+      <footer>
+      <div class="cWrapper">
+        <div class="container">
+          <div class="col-md-4">
+            <h2>Zonnestad</h2>
+              <ul>
+                <li><a href="{{ path('Home.WatIsZonnestad') }}">Wat is zonnestad</a></li>
+                <li><a href="{{ path('Home.ZonnestadInCijfers') }}">In cijfers</a></li>
+                <li><a href="{{ path('Home.start') }}#meedoen">Hoe meedoen</a></li>
+                <li><a href="{{ path('Home.Installatie') }}">installatie</a></li>
+                <li><a href="{{ path('Home.Realisaties') }}">realisaties</a></li>
+                <li><a href="{{ path('Home.Partners') }}">partners</a></li>
+                <li><a href="{{ path('Home.HelpMee') }}">help mee</a></li> 
+              </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Energent</h2>
+              <ul>
+                <li><a href="http://energent.be/over-ons" target="_blank">over energent</a></li>
+                <li><a href="http://energent.be/wijkwerf" target="_blank">wijkwerf</a></li>
+                <li><a href="http://energent.be/projecten-van-energent" target="_blank">investeringen</a></li>
+                
+              </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>contact</h2>
+              <ul>
+                <li>energent cvba</li>
+                <li>Slachthuisstraat 30</li>
+                <li>9000 gent</li>
+                <li><a href="mailto:zonnestad@energent.be">zonnestad@energent.be</a></li>
+                <li><a href="http://www.energent.be" target="_blank">www.energent.be</a></li>
+              </ul>
+          </div>
+          <p style="clear: both">&copy; 2017 | ENERGENT CVBA </p>
+          <p> Design: Sam Van Cleemputte | Development: Rein Bauwens </p>
+          </div>
+          </div>
+      </footer>
+
+		<script src="{{ app.request.baseUrl }}/{{ urlfix}}js/jquery-2.1.3.min.js"></script>
+		<script src="{{ app.request.baseUrl }}/{{ urlfix}}js/ie-emulation-modes-warning.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="{{ app.request.baseUrl }}/{{ urlfix}}../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<script src="{{ app.request.baseUrl }}/{{ urlfix}}js/bootstrap.min.js"></script>
+		<script src="{{ app.request.baseUrl }}/{{ urlfix}}js/GoogleAnalytics.js"></script>
+		<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+		<script src="{{ app.request.baseUrl }}/{{ urlfix}}js/holder.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+		{# pageScripts Start #}
+		{% block pageScripts %}
+		{# pageScripts END #}
+		{% endblock %}
+	</body>
+</html>
